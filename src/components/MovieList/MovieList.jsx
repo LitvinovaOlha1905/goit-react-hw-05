@@ -7,8 +7,7 @@ const MovieList = ({ trendingMovies }) => {
 
 	return (
 		<div className='container'>
-			<h2 className={styles.movies_title}>Trending today</h2>
-
+			
 			<ul className={styles.movies_list}>
 				{trendingMovies.map(mov => (
 					<li className={styles.movies_item} key={mov.id}>

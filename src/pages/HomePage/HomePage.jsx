@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import styles from './HomePage.module.css'
 import MovieList from '../../components/MovieList/MovieList';
 import { fetchTrendingMovies } from '../services/api';
 
@@ -15,6 +16,7 @@ const HomePage = () => {
 
 	return (
 		<div>
+			<h2 className={styles.movies_title}>Trending today</h2>
 			<MovieList trendingMovies={trendingMovies} />
 		</div>
 	);

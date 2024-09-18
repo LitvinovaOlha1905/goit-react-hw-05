@@ -1,0 +1,5 @@
+.error_message {
+  text-align: center;
+  font-size: 22px;
+  color: var(--text_error);
+}

@@ -1,0 +1,29 @@
+.cast_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.cast_item {
+  max-width: 200px;
+}
+
+.cast_message {
+  font-size: 20px;
+}
+
+.cast_title{
+  margin-top: 5px;
+  font-size: 22px;
+}
+
+.cast_descr{
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.cast_message{
+  font-size: 20px;
+    color: var(--text_error);
+}

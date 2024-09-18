@@ -1,0 +1,10 @@
+.link {
+   font-size: 18px;
+   text-decoration: none;
+   color: var(--text-color);
+}
+
+.link:hover,
+.link:focus{
+   color: var(--btn_hover);
+}

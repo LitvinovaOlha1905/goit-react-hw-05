@@ -1,0 +1,26 @@
+.movies_title{
+  margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.movies_list {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.movies_item {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.movies_item:hover,
+.movies_item:focus {
+  color: var(--movies_hover);
+  cursor: pointer;
+}
+
+.movies_link {
+  text-decoration: none;
+  color: inherit;
+}
